@@ -174,25 +174,25 @@
         return m;
     };
 
-    var botCreator = "Matthew aka. Yemasthui";
+    var botCreator = "thegreat1200";
     var botCreatorIDs = [];
 
     var basicBot = {
         version: "2.1.4",
         status: false,
-        name: "basicBot",
+        name: "thegreat1200Bot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/thegreat1200/thegreat1200Bot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/thegreat1200/thegreat1200Bot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "thegreat1200Bot",
             language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/thegreat1200/thegreat1200Bot/master/lang/en.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
@@ -315,7 +315,7 @@
         },
         User: function (id, name) {
             this.id = id;
-            this.username = name;
+            this.username = "Bob"; //name
             this.jointime = Date.now();
             this.lastActivity = Date.now();
             this.votes = {
