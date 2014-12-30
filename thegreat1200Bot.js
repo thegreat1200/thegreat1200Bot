@@ -182,7 +182,7 @@
         status: false,
         name: "thegreat1200Bot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/thegreat1200/thegreat1200Bot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/thegreat1200/thegreat1200Bot/master/thegreat1200Bot.js",
         cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/thegreat1200/thegreat1200Bot/master/lang/en.json",
         chat: null,
