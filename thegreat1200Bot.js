@@ -183,7 +183,7 @@
         name: "The Blogger Network Bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/thegreat1200/thegreat1200Bot/master/thegreat1200Bot.js",
-        cmdLink: "https://github.com/thegreat1200/thegreat1200Bot/commands.md",
+        cmdLink: "http://git.io/loh0_w",
         chatLink: "https://rawgit.com/thegreat1200/thegreat1200Bot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
