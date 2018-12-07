@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Yemasthui/basicBot/master/lang/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/Yemasthui/basicBot/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -182,9 +182,9 @@
         status: false,
         name: "The Blogger Network Bot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/thegreat1200/thegreat1200Bot/master/thegreat1200Bot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/thegreat1200/thegreat1200Bot/thegreat1200Bot.js",
         cmdLink: "http://git.io/loh0_w",
-        chatLink: "https://rawgit.com/thegreat1200/thegreat1200Bot/master/lang/en.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/thegreat1200/thegreat1200Bot/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -192,7 +192,7 @@
         settings: {
             botName: "The Blogger Network Bot",
             language: "english",
-            chatLink: "https://rawgit.com/thegreat1200/thegreat1200Bot/master/lang/en.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/thegreat1200/thegreat1200Bot/lang/en.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
